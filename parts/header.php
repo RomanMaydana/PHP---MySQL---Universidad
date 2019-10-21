@@ -26,7 +26,9 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="adicionar.php">Adicionar <span class="sr-only">(current)</span></a>
                 </li>
-                
+                <li class="nav-item active">
+                    <a class="nav-link" href="reporte_estudiante.php">Reporte <span class="sr-only">(current)</span></a>
+                </li>
             </ul>
             
         </div>

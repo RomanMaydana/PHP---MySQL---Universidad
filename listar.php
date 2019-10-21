@@ -1,6 +1,10 @@
 <?php
 include('bd.php');
+
 include('parts/header.php');
+
+
+
 ?>
 
 <div class="container">
@@ -8,13 +12,13 @@ include('parts/header.php');
         <table class="table table-bordered">
             <thead>
                 <tr>
-                    <th>ci</th>
-                    <th>pro</th>
-                    <th>nom</th>
-                    <th>ap</th>
-                    <th>reguni</th>
-                    <th>codpro</th>
-                    <th>correo</th>
+                    <th>CI</th>
+                    <th>PRO</th>
+                    <th>NOM</th>
+                    <th>AP</th>
+                    <th>REGUNI</th>
+                    <th>CODPRO</th>
+                    <th>CORREO</th>
                 </tr>
             </thead>
             <tbody>
@@ -37,6 +41,10 @@ include('parts/header.php');
                             <a href="delete.php?ci=<?php echo $row['ci'] ?>" class="btn btn-danger">
                                 <i class="far fa-trash-alt"></i>
                             </a>
+                            <a href="reporte_notas_estudiante.php?ci=<?php echo $row['ci'] ?>" class="btn btn-danger">
+                                <i class="far fa-trash-alt"></i>
+                            </a>
+                            
                         </td>
                     </tr>
                 <?php }
